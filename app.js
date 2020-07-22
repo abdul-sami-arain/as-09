@@ -1452,27 +1452,35 @@
                                            // CHAPTER52-57
 
 // TASK#1          
-// var a = document.getElementById("img0")
-// var i = ["img/1.jpg","img/2.jpg","img/3.jpg","img/4.jpg","img/5.jpg","img/6.jpg","img/7.jpg","img/8.jpg","img/10.jpg","img/11.jpg","img/12.jpg","img/13.jpg","img/14.jpg","img/15.jpg" ]
-// for(i=0;i>i.length;i++){
-//         var b = a.innerHTML
-//         b.src=[i]
-//         console.log(b)
+
+// function OpenImage(e){
+//     var modalImage=document.getElementById('modalImage')
+//     modalImage.src=e.src
 // }
 
                                             // CHAPTER58-67
 
-var a = document.getElementById("main-content")      
+// var a = document.getElementById("main-content")      
 
 // var b = document.childNodes[0]
 // console.log(b)
 
-var d = document.getElementById("first-name")
-d.value='abdul'
+// var firstname = document.getElementById("first-name")
+// firstname.value='abdul'
 
-var e = document.getElementById("last-name")
-e.value='sami' 
 
-var f = document.getElementById("email")
-f.value='abdulsamiarain82@gmail.com'
+// var lastname = document.getElementById("last-name")
+// lastname.value='sami' 
+
+
+// var email = document.getElementById("email")
+// email.value='abdulsamiarain82@gmail.com'
+
+
+// var formcontent = document.getElementById('form-content')
+// console.log(formcontent.nodeType)
+
+// var lastname = document.getElementById('lastName').nodeType
+// document.write(lastname.childNode)
+
 
